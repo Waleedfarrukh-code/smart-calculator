@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>caculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="toggle-btn">
+         <i class="fa-regular fa-sun"  id="light-mode-btn"></i>
+         <i class="fa-solid fa-moon" id="dark-mode-btn"></i>
+        </div>
+   <div class="back-btn">
+     <i class="fa-solid fa-chevron-right"></i>
+</div>
+<input type="text" maxlength="10" readonly>
+
+
+        <div id="first-line">
+                        <button id="AC"  style="color:black; background-color: sandybrown;">AC</button>
+
+            <button style="color:black; background-color: sandybrown;">C</button>
+            <button>%</button>
+            <button>÷</button>
+        </div>
+
+        <div id="second-line">
+            
+            <button >7</button>
+            <button>8</button>
+            <button>9</button>
+            <button>x</button>
+        </div>
+
+        <div id="third-line">
+            <button>4</button>
+            <button>5</button>
+            <button>6</button>
+            <button>-</button>
+        </div>
+
+        <div id="four-line">
+            <button>1</button>
+            <button>2</button>
+            <button>3</button>
+            <button>+</button>
+        </div>
+
+        <div id="five-line">
+            <button>+/-</button>
+            <button>0</button>
+            <button>.</button>
+            <button>=</button>
+        </div>
+        <div class="scientific-btns">
+
+            <button class="scien-btn">sin</button>
+<button class="scien-btn">cos</button>
+<button class="scien-btn">tan</button>
+<button class="scien-btn">xl</button>
+<button class="scien-btn">&#8508;</button>
+<button class="scien-btn">log</button>
+<button class="scien-btn">(</button>
+<button class="scien-btn">)</button>
+<button class="scien-btn">&#8730;</button>
+<button class="scien-btn">e</button>
+<button class="scien-btn pow-btn">x<span class="pow">y</span></button>
+<button class="scien-btn" id="brack">()</button>
+
+
+
+</div>
+    </div>
+    <small style="opacity:.6;text-align:center" class="branding"> Smart Calculator Create By Waleed</small>
+
+    <script src="app.js"></script>
+</body>
+</html>
